@@ -8,9 +8,8 @@ st.header('Club')
 c1, c2, c3 = st.columns([1,1,1])
 
 with c1:
-    st.image('https://cdn.pixabay.com/photo/2021/03/02/19/26/snowshoes-6063630_960_720.jpg',use_column_width=True)
-    st.success('[배드민턴](%s)' % 'https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=1&ie=utf8&query=배드민턴')
-
+    st.write('[![this is an image link](https://cdn.pixabay.com/photo/2021/03/02/19/26/snowshoes-6063630_960_720.jpg)](https://www.streamlit.io/)')
+    st.success('배드민턴')
 with c2:
     st.image('https://cdn.pixabay.com/photo/2019/01/21/13/58/table-tenis-3946115_960_720.jpg',use_column_width=True)
     st.success('[탁구](%s)' % 'https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=1&ie=utf8&query=탁구')
