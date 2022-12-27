@@ -3,3 +3,4 @@ lxml
 matplotlib
 requests
 streamlit_lottie
+streamlit_extras.switch_page_button
