@@ -3,15 +3,10 @@ import streamlit as st
 import datetime
 import requests
 from streamlit_lottie import st_lottie
-
-st.header('IMI Critical Engineering Korea Club')
-import pandas as pd
-import streamlit as st
-import datetime
-import requests
-from streamlit_lottie import st_lottie
 from streamlit_extras.switch_page_button import switch_page
 
+
+st.header('IMI Critical Engineering Korea Club')
 
 st.set_page_config(
     page_title="Ex-stream-ly Cool App",
